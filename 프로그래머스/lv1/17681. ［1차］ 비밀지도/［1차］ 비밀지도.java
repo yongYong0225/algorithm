@@ -19,7 +19,7 @@ class Solution {
                 }
                 if (num1.charAt(j) == '1' || num2.charAt(j) == '1') { //둘중 하나라도 1이라면 #
                     result += "#";
-                } else if (num1.charAt(j) == '0' && num2.charAt(j) == '0') { //둘다 0이라면 공백
+                } else { //둘다 0이라면 공백
                     result += " ";
                 }
             }
