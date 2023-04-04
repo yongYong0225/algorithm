@@ -8,7 +8,6 @@ class Solution {
         for(int i=0; i<num.length(); i++){
             sum += num.charAt(i)-'0';
         }
-
         if(x%sum==0){
             return answer;
         } else{
